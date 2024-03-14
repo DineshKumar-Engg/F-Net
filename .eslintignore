@@ -1,0 +1,9 @@
+SvgIcons/
+build/
+node_modules/
+public/
+src/assets
+src/components/icon/
+src/components/
+#src/pages/documentation
+src/styles
