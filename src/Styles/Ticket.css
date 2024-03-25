@@ -1,0 +1,212 @@
+.TicketListFilters{
+    padding: 20px 0px;
+    background-color:#000748 !important;
+}
+.ticketListMain{
+    background-color: #000748 !important;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.ticketListCon{
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 25px;
+}
+.ticketListTitle h3{
+    font-family: MochRegular;
+    font-weight: 600;
+    color: #000748 !important;
+    margin: 10px 0px;
+}
+.ticketListEventOrg{
+    margin: 10px 0px;
+}
+.ticketListEventOrg h6{
+    font-family: PoppinMedium;
+}
+.ticketListEventOrg h6{
+    font-family: PoppinMedium;
+
+}
+.ticketListEventLocat img{
+    width: 20px;
+    height: 20px;
+}
+.ticketListEventLocat h5{
+    font-family: poppinsSemiBold;
+    color: #004396;
+    font-size: 16px;
+}
+
+.ticketListTicketTitle{
+    display: flex;
+    margin: 10px 0px;
+
+}
+.ticketListTicketDate{
+    padding-left: 10px;
+}
+.ticketListTicketDate img{
+    width: 20px;
+    height: 20px;
+}
+.ticketListTicketTitle h3{
+    font-family: poppinsSemiBold;
+}
+.ticketListTicketTitle h5{
+    font-family: poppinsSemiBold;
+    color: #004396;
+    font-size: 16px;
+}
+.ticketListTicketTitle img:nth-child(2){
+    width: 20px;
+    height: 20px;
+}
+.ticketListTicketContent{
+    display: flex;
+    margin: 10px 0px;
+}
+.ticketListTicketText h5{
+    font-family: poppinsSemiBold;
+    color: #004396;
+    font-size: 16px;
+}
+.ticketListTicketText p{
+    font-family: PoppinRegular;
+    font-size: 14px;
+}
+.ticketListTicketSelect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ticketListTicketSelect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.ticketListTicketSelectRow{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+}
+.ticketListTicketSelectRow h5{
+
+    font-family: PoppinRegular;
+    font-size: 16px;
+}
+.ticketListTicketSelectRow h4{
+    text-align: start;
+    font-family: poppinsSemiBold;
+    font-size: 16px;
+}
+.ticketListTicketSelectColFirst{
+display: flex;
+align-items: flex-end;
+}
+.ticketListTicketSelectColTow{
+    display: flex;
+    align-items: flex-end;
+}
+.ticketListTicketSelectRow select{
+   width: 70px;
+   height: 30px;
+   background-color: #FFFFFF;
+   border: none;
+   outline: none;
+   margin: 5px 0px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: flex-start;
+}
+.ticketListTicketButton {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.ticketListTicketButton button{
+    padding: 10px 15px;
+    background-color: #FF8800;
+    color: #FFFFFF;
+    border-radius: 50px;
+    font-family: KanitMedium;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+}
+
+
+
+.buyticketMain{
+    padding: 20px 0px;
+    background-color:#000748 !important;
+}
+.buyticketCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.buyticketRow{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.buyticketRow img{
+    width: 200px;
+    height: 100px;
+}
+.buyticketRow h6{
+   font-family: PoppinMedium;
+   color:#545353 ;
+}
+.buyticketRow h5{
+    font-family: PoppinRegular;
+    color:#000000 ;
+    font-weight: 600;
+    font-size: 14px;
+ }
+.buyticketRow .buyticketRowEvent{
+    font-family: MochRegular;
+    color:#000000 ;
+    font-weight: 600;
+ }
+.buyticketRow button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.buyticketRowSelect {
+    display: flex;
+    align-items: center;
+}
+.buyticketRowSelect h5{
+   margin-bottom: 0px;
+}
+.buyticketRowSelect select{
+    padding-left: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin: 5px 0px;
+    height: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.buyticketRow button>img{
+   width: 50px;
+   height: 50px;
+}

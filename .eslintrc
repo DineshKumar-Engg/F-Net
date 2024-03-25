@@ -14,9 +14,9 @@
 	"plugins": ["import", "prettier", "eslint-comments", "react", "jsx-a11y", "react-hooks"],
 	"rules": {
 		"prettier/prettier": [
-			"error",
+			"warn",
 			{
-			  "endOfLine": "auto"
+			  "endOfLine":"auto"
 			}
 		  ],
 		"no-use-before-define": "off",

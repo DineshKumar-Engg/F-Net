@@ -1,0 +1,36 @@
+.vendorBackBg{
+    background-image: url('../Assets/Image/vendorBg.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}
+.vendorText{
+    background-color: #000748;
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.vendorText h3{
+    font-family: BerkshireRegular;
+    color: #FFFFFF;
+    margin: 10px 0px;
+}
+.vendorText button{
+
+    padding: 10px 30px;
+    background-color: #29AAE1;
+    color: #FFFFFF;
+    font-family: BerkshireRegular;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,64 @@
+.eventDetailSec{
+    background-color:#000748 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 30px 10px;
+}
+.eventDetailCont{
+   background-color: #FFFFFF;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.eventDetailColFirst{
+    padding: 20px 0px 20px 30px;
+}
+.eventDetailColFirst > .row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.eventDetailText:nth-child(1){
+    margin-bottom: 20px;
+}
+.eventDetailText{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.eventDetailText h3{
+    color:#000748;
+    font-family: MochRegular;
+}
+.eventDetailText span{
+    color:#5E5E5E;
+    font-family: poppinsSemiBold;
+}
+.eventDetailText h5{
+    color:#000000;
+    font-family: poppinsSemiBold;
+}
+.eventDetailText h6{
+    color:#595959;
+    font-family: PoppinRegular;
+}
+.eventDetailTicketList{
+    background-color: #F0F0F0;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.eventDetailTicketList button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: #FF8800;
+    color: #FFFFFF;
+    border-radius: 50px;
+    font-family: KanitMedium;
+    letter-spacing: 2px;
+}
