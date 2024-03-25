@@ -1,5 +1,5 @@
 {
-	"tabWidth": 4,
+	"tabWidth": 2,
 	"useTabs": true,
 	"trailingComma": "all",
 	"arrowParens": "always",
@@ -9,5 +9,5 @@
 	"endOfLine": "lf",
 	"printWidth": 100,
 	"parser": "flow",
-	"semi": false
+	"semi": true
 }

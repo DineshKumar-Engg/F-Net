@@ -8,18 +8,22 @@
 .carousel-item {
     object-fit: contain;
 }
-#home .Homebanner img {
+
+.Homebanner img {
     height: 100%;
     width: 100%;
 }
-#home .Homebanner .carousel-indicators{
+
+.Homebanner .carousel-indicators {
     display: none;
 }
-#home .Homebanner .carousel-inner{
+
+.Homebanner .carousel-inner {
     display: flex;
     align-items: end;
 }
-#home .Homebanner .bannerMarquee {
+
+.Homebanner .bannerMarquee {
     background: rgba(0, 0, 0, 0.75);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(1px);
@@ -28,12 +32,12 @@
     z-index: 99;
     color: #FFFFFF;
     height: 60px;
-   display: flex;
-   font-family: ReggaeoneRegular;
+    display: flex;
+    font-family: ReggaeoneRegular;
 }
 
 /* Event */
-.homeEvent{
+.homeEvent {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +48,8 @@
     background-color: #000748;
     padding: 30px 0px;
 }
-.homeEventTitle{
+
+.homeEventTitle {
     background-image: url('../Assets/Image/Home/EventTitle.svg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -56,21 +61,26 @@
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
-}   
-.findEvent .homeEventTitle{
+}
+
+.findEvent .homeEventTitle {
     background-image: url('../Assets/Image/Home/FindYourEventTitle.svg');
 }
-.eventSponsor .homeEventTitle{
+
+.eventSponsor .homeEventTitle {
     background-image: url('../Assets/Image/Home/EventSponsor.svg');
 }
-.CardEventTemplateRow{
+
+
+.CardEventTemplateRow {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
     margin: 30px 0px !important;
     gap: 15px;
 }
-.CardEventTemplate{
+
+.CardEventTemplate {
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
@@ -81,39 +91,45 @@
     padding-left: 0px !important;
     padding-right: 0px !important;
 }
-.CardEventTemplateBanner{
+
+.CardEventTemplateBanner {
     padding-left: 0px !important;
     padding-right: 0px !important;
     width: 310px !important;
 }
-.CardEventTemplateBanner img{
+
+.CardEventTemplateBanner img {
     padding-left: 0px !important;
     padding-right: 0px !important;
     width: 100%;
 }
-.CardEventTemplate h4{
-    font-family:ReggaeoneRegular;
+
+.CardEventTemplate h4 {
+    font-family: ReggaeoneRegular;
     padding: 5px 0px;
 }
-.CardEventTemplate h5{
-    font-family:KanitRegular ;
+
+.CardEventTemplate h5 {
+    font-family: KanitRegular;
     font-size: 15px;
 }
-.cardEventTemplateText{
-    margin:4px 2px;
+
+.cardEventTemplateText {
+    margin: 4px 2px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 280px !important;
 }
 
-.cardEventTemplateBtnText{
+.cardEventTemplateBtnText {
     width: 100%;
     padding: 10px 0px;
     display: flex;
     justify-content: space-between;
 }
-.cardEventTemplateBtnText button{
+
+.cardEventTemplateBtnText button {
     border: none;
     outline: none;
     padding: 10px 15px;
@@ -121,44 +137,31 @@
     color: #FFFFFF;
     width: 130px;
     border-radius: 50px;
-    font-family: KanitRegular;
-    font-weight: bold;
+    font-family: KanitMedium;
     letter-spacing: 2px;
 }
-.cardEventTemplateBtnText div:nth-child(2){
- display: flex;
- align-items: center;
- justify-content: center;
- text-decoration: underline;
- font-family: KanitRegular;
- font-weight: 600;
- letter-spacing: 1px;
+
+.cardEventTemplateBtnText div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    font-family: KanitRegular;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
+
 /* Event */
 
-
-.eventsScrollX .CardEventTemplateRow{
-    flex-wrap: nowrap !important;
-    overflow-x: scroll;
-}
-.eventsScrollX .CardEventTemplateRow::-webkit-scrollbar {
-    width: 5px !important;
-    height: 10px !important;
-    cursor: pointer;
-}
-.eventsScrollX .CardEventTemplateRow::-webkit-scrollbar-thumb {
-    border-radius: 50px;
-    background: hsla(0, 0%, 41.2%, .3137254901960784);
-    cursor: pointer;
-}
-.eventBannerBg .homeEvent{
+.eventBannerBg .homeEvent {
     background-image: url("../Assets/Image/Home/EventSponsorBg.svg") !important;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     background-size: cover;
 }
-.btnDefault{
+
+.btnDefault {
     border: none;
     outline: none;
     padding: 10px 20px;
@@ -170,25 +173,148 @@
     font-size: 23px;
     letter-spacing: 0px;
 }
-.eventSponsorLabelContainer{
-  display: grid;
+
+.eventSponsorLabelContainer {
+    /* display: grid;
   grid-template-columns: 1fr 100px;
-    width: 100%;
+    width: 100%; */
     /* padding: 0 12px; */
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100%;
 }
-.eventSponsorLabelContainer img{
-width: 100px;
-height: 100px;
-/* margin-top: -40px; */
+
+.eventSponsorLabelContainer div:first-child {
+    padding: 0px 0px !important;
 }
-.eventSponsorLabelContainer .SponsorLable{
-    
-    background-image: url("../Assets/Image/Home/SponsorLableBg.svg");
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* margin-left: -12px; */
+
+.eventSponsorLabelContainer div:nth-child(2) {
+    /* padding: 0px 0px !important; */
+    display: flex;
+    justify-content: end;
 }
-.eventSponsorLabelContainer .SponsorLable p{
+
+.eventSponsorLabelContainer img {
+    width: 80px;
+    height: 80px;
+    margin-top: -40px;
+}
+
+.eventSponsorLabelContainer .SponsorLable {
+    float: left;
+    color: #fff;
+    background: #ED2C66;
+    padding: 4px 30px 3px 10px;
+    margin-top: 5px;
+    position: relative;
+    height: 30px;
+    width: 140px;
+    text-align: center;
+}
+
+.eventSponsorLabelContainer .SponsorLable::after {
+    content: '';
+    width: 0;
+    height: 0;
+    top: 0;
+    position: absolute;
+    right: 0;
+    border-right: 13px solid #fff;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+}
+
+.eventSponsorLabelContainer .SponsorLable p {
     color: #FFFFFF;
     font-size: 16px;
+}
+
+
+
+/* find your event */
+.findEvent .homeEventTitle {
+    background-image: url('../Assets/Image/Home/FindYourEventTitle.svg');
+}
+
+.eventsScrollX .CardEventTemplateRow {
+    flex-wrap: nowrap !important;
+    overflow-x: scroll;
+}
+
+.eventsScrollX .CardEventTemplateRow::-webkit-scrollbar {
+    width: 5px !important;
+    height: 10px !important;
+    cursor: pointer;
+}
+
+.eventsScrollX .CardEventTemplateRow::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: hsla(0, 0%, 41.2%, .3137254901960784);
+    cursor: pointer;
+}
+
+.homeEventSelect {
+    margin: 20px 0px !important;
+    padding: 20px 0px !important;
+    display: flex;
+
+}
+
+.homeEventSelectCol {
+    width: 230px !important;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeEventSelect .locate {
+    width: 200px !important;
+    border: none !important;
+    box-shadow:  none !important;
+}
+
+.homeEventSelect .homeEventSelectCol .p-multiselect-trigger svg {
+    display: none;
+}
+
+.homeEventSelect .homeEventSelectCol .p-multiselect-trigger {
+    background-image: url('../Assets/Image/selectArrow.webp') !important;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+}
+
+/* find your event */
+.DateRangeBg #dropdown-basic{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: #FFFFFF !important;
+    font-size: 18px;
+    color: #6b7280;
+    border: none !important;
+    text-align: end;
+    position: relative;
+ }
+ .DateRangeBg button:hover{
+    color: inherit !important;
+ }
+ .DateRangeBg img{
+    position: absolute;
+    width: 20px;
+    right: 0px;
+ }
+ .dropdown-toggle::after {
+    width: 10px;
+    margin-left: 0px !important;
+    border-top: 0px !important;
+    border-bottom:  0px !important;
+    border-right: 0px !important;
+    border-left: 0px !important;            
 }

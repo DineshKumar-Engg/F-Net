@@ -1,0 +1,46 @@
+.formSection {
+    background-image: url('../Assets/Image/FormBg.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSectionBackBg {
+    /* height: 60vh; */
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 20px 10px;
+}
+.formSectionBackBg h3{
+    font-family: ReggaeoneRegular;
+    text-align: center;
+    color: #FFFFFF;
+}
+.formSectionBackBg input,textarea{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    width: 100%;
+}
+.formSectionBackBg button{
+    width: 180px;
+    padding: 10px 30px;
+    background-color: #FEA424;
+    color: #FFFFFF;
+    font-family:KanitMedium ;
+    font-size: 25px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    letter-spacing: 2px;
+}

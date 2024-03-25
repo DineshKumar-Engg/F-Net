@@ -13,17 +13,47 @@
     font-family: KanitRegular;
     src: url('./Assets/Fonts/Kanit-Regular.ttf')
 }
+@font-face {
+    font-family: KanitMedium;
+    src: url('./Assets/Fonts/Kanit-Medium.ttf')
+}
+@font-face {
+    font-family: MochRegular;
+    src: url('./Assets/Fonts/MochiyPopOne-Regular.ttf')
+}
+@font-face {
+    font-family: PoppinRegular;
+    src: url('./Assets/Fonts/Poppins-Regular.ttf')
+}
+@font-face {
+    font-family: PoppinMedium;
+    src: url('./Assets/Fonts/Poppins-Medium.ttf')
+}
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url('./Assets/Fonts/Poppins-SemiBold.ttf')
+}
 
 .BerkshireRegular {
     font-family: BerkshireRegular;
 }
-
 .ReggaeoneRegular {
     font-family: ReggaeoneRegular;
 }
-
 .KanitRegular {
     font-family: KanitRegular;
+}
+.MochRegular {
+    font-family: MochRegular;
+}
+.PoppinRegular {
+    font-family: PoppinRegular;
+}
+.PoppinMedium {
+    font-family: PoppinMedium;
+}
+.poppinsSemiBold {
+    font-family: poppinsSemiBold;
 }
 
 :root{
